@@ -1,0 +1,110 @@
+body{
+  text-align: left;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 10px;
+  min-width: 520px;
+}
+input{
+  display: inline-block;
+  width: 100%;
+  margin-bottom: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  box-sizing: border-box;
+  border: 1px  solid #5f9341;
+}
+ul{
+  list-style:none;
+  margin-top: 20px;
+
+}
+li{
+  margin-left: -35px;
+  margin-top: 10px;
+}
+li a{
+  color: #5f9341;
+}
+button{
+  display: inline-block;
+  margin-top: 5px;
+  border: 1px solid #5f9341;
+  border-radius: 2px;
+  /* background-color: rgb(168, 255, 162); */
+  background-color: #5f9341;
+  font-size: 12px;
+  font-weight: bold;
+  padding:10px 20px ; /* y-axis -- x-axis*/
+  color :rgb(3, 0, 67);
+} 
+#input-btn:hover{
+  cursor: pointer;
+  background-color: #9fc18b;
+  margin-top:6px ; /*to center the button get increase hulf of decrese in sizes to margine */
+  margin-left:1px ;
+  margin-right: 3px;
+  padding: 8px 18px ; /* y-axis -- x-axis*/
+}
+/*#tab-btn{
+  margin-left: 10px;
+}
+#tab-btn:hover{
+  cursor:pointer;
+  background-color: #9fc18b;
+  padding:8px 18px;
+  margin-left: 12px;
+  margin-right:2px;
+}*/
+#clear-btn{
+  margin-left: 10px;
+  background-color: transparent;
+}
+#clear-btn:hover{
+  cursor: pointer;
+  margin-top:6px ; /*to center the button get increase hulf of decrese in sizes to margine */
+  margin-left:12px ;
+  margin-right: 2px;
+  padding: 8px 18px ; /* y-axis -- x-axis*/
+}
+#style1{
+  cursor: pointer;
+  margin-top:6px ;
+  margin-left:12px ;
+  margin-right: 2px;
+  padding: 8px 12.75px ;
+  background-color: red;
+}
+#clearlast-btn{
+  margin-left: 10px;
+  background-color: transparent;
+}
+#clearlast-btn:hover{
+  cursor: pointer;
+  margin-top:6px ; /*to center the button get increase hulf of decrese in sizes to margine */
+  margin-left:11px ;
+  margin-right: 3px;
+  padding: 8px 18px ; /* y-axis -- x-axis*/
+  background-color: red;
+}
+#download-btn{
+  margin-left: 10px;
+  background-color: transparent;
+}
+#download-btn:hover{
+  cursor: pointer;
+  background-color: green;
+  margin-top:6px ; 
+  margin-left:12px ;
+  margin-right: 2px;
+  padding: 8px 18px ; 
+}
+
+
+
+
+
+
+
+
